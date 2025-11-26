@@ -3,7 +3,8 @@
     "allow": [
       "Bash(find:*)",
       "Bash(git -C \"/Users/alex/ec2code/ec2code 2/alex/highlyreco2\" log -1 --format=\"%cd %s\" --date=iso)",
-      "Bash(git -C \"/Users/alex/ec2code/ec2code 2/alex/time_travel/highlyreco\" log -1 --format=\"%cd %s\" --date=iso)"
+      "Bash(git -C \"/Users/alex/ec2code/ec2code 2/alex/time_travel/highlyreco\" log -1 --format=\"%cd %s\" --date=iso)",
+      "Bash(mkdir:*)"
     ],
     "deny": []
   }
