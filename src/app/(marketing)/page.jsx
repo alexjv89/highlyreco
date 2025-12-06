@@ -14,7 +14,7 @@ export default function Home() {
 
           {/* Header */}
           <header className="mb-12">
-            <h1 className="text-3xl font-semibold text-stone-900 dark:text-stone-100 mb-2">
+            <h1 className="text-3xl font-semibold text-stone-700 dark:text-stone-200 mb-2">
               Highlyreco
             </h1>
             <p className="text-lg text-stone-600 dark:text-stone-400">
@@ -27,18 +27,19 @@ export default function Home() {
 
             {/* The Problem */}
             <section>
-              <h2 className="text-2xl font-semibold text-stone-900 dark:text-stone-100 mb-4">The Problem</h2>
+              <h2 className="text-2xl font-semibold text-stone-700 dark:text-stone-200 mb-4">The Problem</h2>
+
               <p className="leading-relaxed mb-3">
                 You open YouTube to learn one thing. Two hours later, you&apos;ve watched fifteen videos and can&apos;t remember why you came.
               </p>
               <p className="leading-relaxed mb-3">
-                <strong className="text-stone-900 dark:text-stone-100">The platforms designed to help you discover are designed to trap you.</strong> Infinite scroll. Autoplay. Algorithmic feeds. They optimize for engagement, not for helping you find what you need.
+                <strong className="text-stone-600 dark:text-stone-300">The platforms designed to help you discover are designed to trap you.</strong> Infinite scroll. Autoplay. Algorithmic feeds. They optimize for engagement, not for helping you find what you need.
               </p>
               <p className="leading-relaxed mb-3">
                 But think about real life. When you need a car recommendation, you ask your friend who&apos;s obsessed with cars. When you need a laptop, you ask your techie friend.
               </p>
               <p className="leading-relaxed">
-                <strong className="text-stone-900 dark:text-stone-100">You already have a recommendation engine. It&apos;s called people you trust.</strong>
+                <strong className="text-stone-600 dark:text-stone-300">You already have a recommendation engine. It&apos;s called people you trust.</strong>
               </p>
             </section>
 
@@ -46,18 +47,18 @@ export default function Home() {
 
             {/* What It Is */}
             <section>
-              <h2 className="text-2xl font-semibold text-stone-900 dark:text-stone-100 mb-4">What Highlyreco Is</h2>
+              <h2 className="text-2xl font-semibold text-stone-700 dark:text-stone-200 mb-4">What Highlyreco Is</h2>
               <p className="leading-relaxed mb-3">
-                <strong className="text-stone-900 dark:text-stone-100">A social platform where people share recommendations. That&apos;s it.</strong>
+                <strong className="text-stone-600 dark:text-stone-300">A social platform where people share recommendations. That&apos;s it.</strong>
               </p>
               <p className="leading-relaxed mb-3">
-                <strong className="text-stone-900 dark:text-stone-100">Follow people, not algorithms.</strong> Your feed shows recommendations from people you chose, in chronological order.
+                <strong className="text-stone-600 dark:text-stone-300">Follow people, not algorithms.</strong> Your feed shows recommendations from people you chose, in chronological order.
               </p>
               <p className="leading-relaxed mb-3">
-                <strong className="text-stone-900 dark:text-stone-100">Recommend anything.</strong> Books, products, restaurants, podcasts, tools, npm packages—whatever you know about.
+                <strong className="text-stone-600 dark:text-stone-300">Recommend anything.</strong> Books, products, restaurants, podcasts, tools, npm packages—whatever you know about.
               </p>
               <p className="leading-relaxed">
-                <strong className="text-stone-900 dark:text-stone-100">Come with purpose, leave satisfied.</strong> No infinite scroll. Find what you need, then go live your life.
+                <strong className="text-stone-600 dark:text-stone-300">Come with purpose, leave satisfied.</strong> No infinite scroll. Find what you need, then go live your life.
               </p>
             </section>
 
@@ -65,25 +66,25 @@ export default function Home() {
 
             {/* The Promise */}
             <section>
-              <h2 className="text-2xl font-semibold text-stone-900 dark:text-stone-100 mb-4">Our Promise</h2>
+              <h2 className="text-2xl font-semibold text-stone-700 dark:text-stone-200 mb-4">Our Promise</h2>
               <p className="leading-relaxed mb-3">
-                <strong className="text-stone-900 dark:text-stone-100">We will never trap you.</strong> No infinite scroll. No autoplay. No dark patterns.
+                <strong className="text-stone-600 dark:text-stone-300">We will never trap you.</strong> No infinite scroll. No autoplay. No dark patterns.
               </p>
               <p className="leading-relaxed mb-3">
-                <strong className="text-stone-900 dark:text-stone-100">We will never manipulate your feed.</strong> No algorithmic insertion. No &quot;trending&quot; or &quot;suggested.&quot;
+                <strong className="text-stone-600 dark:text-stone-300">We will never manipulate your feed.</strong> No algorithmic insertion. No &quot;trending&quot; or &quot;suggested.&quot;
               </p>
               <p className="leading-relaxed mb-3">
-                <strong className="text-stone-900 dark:text-stone-100">We will never sell your attention.</strong> We earn through affiliate links, not ads.
+                <strong className="text-stone-600 dark:text-stone-300">We will never sell your attention.</strong> We earn through affiliate links, not ads.
               </p>
               <p className="leading-relaxed">
-                <strong className="text-stone-900 dark:text-stone-100">Your time matters. We won&apos;t waste it.</strong>
+                <strong className="text-stone-600 dark:text-stone-300">Your time matters. We won&apos;t waste it.</strong>
               </p>
             </section>
 
           </div>
 
           {/* CTA */}
-          <section className="mt-12 pt-10 border-t border-stone-200 dark:border-stone-700">
+          <section className="mt-12 pt-0 border-stone-200 dark:border-stone-700">
             <div className="text-center">
               <a
                 href="https://app.youform.com/forms/xcoliojp"
